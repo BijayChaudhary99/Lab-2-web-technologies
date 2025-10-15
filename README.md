@@ -49,16 +49,11 @@ The browser will open at the provided localhost URL for example http://localhost
 
 Application Structure
 App.jsx: I have manage the central state of the app here, storing all my posts and also handling the routes between different pages.
-
-    Feed.jsx: Here, I have also taken all the posts and map over them to display each one using a PostCard.
-
-    PostCard.jsx: This is where I have showed each post’s avatar, image, caption, likes, and comments in a clean, organized way.
-
-    Composer.jsx: Here, I let users or myself create and also add a new post from here.
-
-    Profile.jsx: I have filtered all posts by a user’s handle so I can see only that person’s posts.
-
-    CommentList.jsx & CommentForm.jsx: I have used these to display existing comments and have also allow users to add new comments to a post.
+Feed.jsx: Here, I have also taken all the posts and map over them to display each one using a PostCard.
+PostCard.jsx: This is where I have showed each post’s avatar, image, caption, likes, and comments in a clean, organized way.
+Composer.jsx: Here, I let users or myself create and also add a new post from here.
+Profile.jsx: I have filtered all posts by a user’s handle so I can see only that person’s posts.
+CommentList.jsx & CommentForm.jsx: I have used these to display existing comments and have also allow users to add new comments to a post.
 
 As per Lab Assignment,
 
@@ -71,15 +66,15 @@ cd mini-insta
 npm i
 npm run dev
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(1).png
 
-Part 1 — Data Model
+Part 1 Data Model
 
 I have created src/data/posts.js with seed posts. Each post includes: id, author, avatar, imageUrl, caption, likedByMe, likeCount, and comments.
 
 Screenshot:
 
-Part 2 — App State & Feed
+Part 2 App State & Feed
 
 I have also used useState in App.jsx to hold all posts. Then I passed posts and setPosts down to <Feed />.
 
@@ -87,7 +82,7 @@ Inside <Feed />, I map over all posts and render <PostCard /> components with st
 
 Screenshot:
 
-Part 3 — PostCard Component
+Part 3 PostCard Component
 
 <PostCard /> shows each post’s avatar, author, image, caption, like button, and like count.
 
@@ -95,7 +90,7 @@ I implemented like toggling so each post’s likedByMe state updates independent
 
 Screenshot:
 
-Part 4 — Comments
+Part 4 Comments
 
 I have also added <CommentList /> to display existing comments, or a placeholder if there are none. Here, the <CommentForm /> lets users add a new comment, which appears instantly below the post.
 
@@ -103,7 +98,7 @@ I also used defensive coding (post.comments ?? []) to avoid crashes when a post 
 
 Screenshot:
 
-Part 5 — Composer
+Part 5 Composer
 
 I built <Composer /> to let users create new posts. An image URL is required, and a caption is optional.
 
@@ -111,7 +106,7 @@ New posts are prepended to the top of the feed, and the form resets after submis
 
 Screenshot:
 
-Part 6 — Routing & Persistence
+Part 6 Routing & Persistence
 
 A. Routing
 I have also implemented /u/:handle to filter the feed by author. Author names are clickable <Link> components that take you to their profile page.
