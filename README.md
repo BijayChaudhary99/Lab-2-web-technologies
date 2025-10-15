@@ -1,32 +1,22 @@
 Mini-Instagram
 
 Student: Bijay Kumar Chaudhary
-Deployed Link: https://bijaychaudhary99.github.io/Lab-2-web-technologies/#/
 
-Table of Contents
-Overview
-Project Goals
-Technologies Used
-Project Setup & Installation
-Application Structure
-Features Implemented
-Routing & Persistence (Graduate Focus)
-Polish & Accessibility
-Screenshots
-Challenges & Learning Outcomes
-References
+Deployed Link: https://bijaychaudhary99.github.io/Lab-2-web-technologies/#/
 
 Overview
 
 In this lab, I built a minimal Instagram-like application using React 18 called Mini-Insta. This app demonstrates a feed of posts with avatars, images, captions, likes, comments, and a simple composer for creating new posts. As a graduate student, I extended the assignment to include profile routing using react-router-dom. This app demonstrates real-world frontend patterns: component decomposition, state management, event handling, list rendering, controlled forms, and also I have implemented all components from scratch and ensured accessibility, keyboard support, and proper state management.
 
 Project Goals
+
 React project using Vite.
 Building a reusable components: Navbar, Feed, PostCard, Composer, CommentList, CommentForm, Profile.
 Implementing the client-side routing for profile pages (/u/:handle).
 and Enhancing UX with accessibility and light styling.
 
 Technologies Used 
+
 Frontend: React 18, JSX, CSS
 Build Tool: Vite
 Routing: react-router-dom
@@ -54,6 +44,8 @@ PostCard.jsx: This is where I have showed each post’s avatar, image, caption, 
 Composer.jsx: Here, I let users or myself create and also add a new post from here.
 Profile.jsx: I have filtered all posts by a user’s handle so I can see only that person’s posts.
 CommentList.jsx & CommentForm.jsx: I have used these to display existing comments and have also allow users to add new comments to a post.
+
+
 
 As per Lab Assignment,
 
