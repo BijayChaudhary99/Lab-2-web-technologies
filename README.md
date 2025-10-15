@@ -1,4 +1,5 @@
 Mini-Instagram
+
 Student: Bijay Kumar Chaudhary
 Deployed Link: https://bijaychaudhary99.github.io/Lab-2-web-technologies/#/
 
