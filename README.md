@@ -37,13 +37,23 @@ npm run dev
 
 The browser will open at the provided localhost URL for example http://localhost:5173/
 
+
+
 Application Structure
+
 App.jsx: I have manage the central state of the app here, storing all my posts and also handling the routes between different pages.
+
 Feed.jsx: Here, I have also taken all the posts and map over them to display each one using a PostCard.
+
 PostCard.jsx: This is where I have showed each post’s avatar, image, caption, likes, and comments in a clean, organized way.
+
 Composer.jsx: Here, I let users or myself create and also add a new post from here.
+
 Profile.jsx: I have filtered all posts by a user’s handle so I can see only that person’s posts.
+
 CommentList.jsx & CommentForm.jsx: I have used these to display existing comments and have also allow users to add new comments to a post.
+
+
 
 
 
