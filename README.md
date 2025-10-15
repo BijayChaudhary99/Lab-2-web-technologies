@@ -25,13 +25,12 @@ Building a reusable components: Navbar, Feed, PostCard, Composer, CommentList, C
 Implementing the client-side routing for profile pages (/u/:handle).
 and Enhancing UX with accessibility and light styling.
 
-Technologies Used
-
-    Frontend: React 18, JSX, CSS
-    Build Tool: Vite
-    Routing: react-router-dom
-    State Management: React useState, useEffect
-    Deployment: GitHub Pages
+Technologies Used 
+Frontend: React 18, JSX, CSS
+Build Tool: Vite
+Routing: react-router-dom
+State Management: React useState, useEffect
+Deployment: GitHub Pages
 
 Project Setup & Installation
 
