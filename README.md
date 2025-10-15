@@ -72,7 +72,8 @@ Part 1 Data Model
 
 I have created src/data/posts.js with seed posts. Each post includes: id, author, avatar, imageUrl, caption, likedByMe, likeCount, and comments.
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(2).png
+
 
 Part 2 App State & Feed
 
@@ -80,7 +81,7 @@ I have also used useState in App.jsx to hold all posts. Then I passed posts and 
 
 Inside <Feed />, I map over all posts and render <PostCard /> components with stable keys. This way, the feed updates smoothly whenever I like a post or add a comment.
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(3).png
 
 Part 3 PostCard Component
 
@@ -88,7 +89,12 @@ Part 3 PostCard Component
 
 I implemented like toggling so each post’s likedByMe state updates independently, and the count reflects changes immediately.
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(4).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(4).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(5).png
+
 
 Part 4 Comments
 
@@ -96,7 +102,11 @@ I have also added <CommentList /> to display existing comments, or a placeholder
 
 I also used defensive coding (post.comments ?? []) to avoid crashes when a post has no comments yet.
 
-Screenshot:
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(7).png
+
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(8).png
+
+
 
 Part 5 Composer
 
@@ -104,7 +114,12 @@ I built <Composer /> to let users create new posts. An image URL is required, an
 
 New posts are prepended to the top of the feed, and the form resets after submission. This keeps the app intuitive and responsive.
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(9).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(11).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(12).png
+
 
 Part 6 Routing & Persistence
 
@@ -117,6 +132,10 @@ B. Persistence
 I saved posts to localStorage so that likes, comments, and new posts persist even after a page reload.
 
 Screenshot:
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(10).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(17).png
+
 
 Polish & Accessibility
 
@@ -129,4 +148,16 @@ Pressing Enter in Composer submits the form. Like buttons use aria-pressed to in
 Alt text:
 I added meaningful alt text for all images, including avatars and post images.
 
-Screenshot:
+Screenshot: https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(13).png 
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(14).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(15).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(16).png
+
+https://github.com/BijayChaudhary99/Lab-2-web-technologies/blob/main/src/images/Screenshot%20(17).png
+
+
+
+
